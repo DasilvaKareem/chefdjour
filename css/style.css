@@ -540,6 +540,10 @@ a.more-details .fa{
     position: fixed;
     top: 0;
     z-index: 1000;
+    background-color: white;
+}
+.kareem {
+    color: black;
 }
 .resize-header {
     background-color: rgba(0,0,0,0.90);
@@ -602,12 +606,12 @@ a.more-details .fa{
 }
 #header .navbar-default .navbar-collapse,
 #header .navbar-default .navbar-form {
-    border: 0px solid transparent;
+    border: 0px solid  white;
 }
 #header .navbar-default .navbar-nav > .open > a,
 #header .navbar-default .navbar-nav > .open > a:hover,
 #header .navbar-default .navbar-nav > .open > a:focus {
-    background-color: transparent;
+    background-color: white;
 }
 #header .navbar-collapse {
     padding: 0;
@@ -615,7 +619,7 @@ a.more-details .fa{
 }
 #header .navbar-default{
     background: none;
-    border: 0px solid transparent;
+    border: 0px solid white;
     -webkit-box-shadow: none;
     box-shadow: none;
 }
@@ -625,7 +629,7 @@ a.more-details .fa{
 #header .navbar-default .navbar-nav > li > a {
     border: none;
     font-family: 'Montserrat', Arial, sans-serif;
-    font-size: 15px;
+    font-size: 12px;
     text-transform: uppercase;
     color: #000;
     margin: 0 4px;
@@ -662,7 +666,7 @@ a.more-details .fa{
 #header .dropdown-menu > li > a:hover,
 #header .dropdown-menu > li > a:focus {
     background: #363636;
-    background-color: #363636 !important;
+    background-color: #ffffff !important;
     background-image: none;
     filter: none;
 }
@@ -2526,15 +2530,17 @@ ul#filters {
 ============================================================================= */
 
 .master-slider .pi-caption01 {
-    font-family: 'Suranna', serif;
-    color: #fff;
-    font-size: 78px;
-    line-height: 78px;
+    font-family: 'Montez', cursive;
+    font-size: 200px;
+    text-transform: none;
+    color: black;
+ 
 }
 .master-slider .pi-caption02 {
     font-family: 'Montez', cursive;
     font-size: 200px;
     text-transform: none;
+    color:black;
 }
 .master-slider .pi-text01 {
     font-family: 'Montserrat', Arial, sans-serif;
